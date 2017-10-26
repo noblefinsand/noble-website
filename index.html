@@ -1,0 +1,229 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+		<title>Noble Finsand</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+		<!--Navigation-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#myPage">Noble Finsand</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#myPage">HOME</a></li>
+						<li><a href="#aboutMe">About Me</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<!--Carousel-->
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		
+		<!--Indicators-->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="4"></li>
+			</ol>
+		
+		<!--Wrapper for slide -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="img/noblegraduation.jpg" width="1200" height="700">
+					<div class="carousel-caption">
+						<h3>Me</h3>
+					</div> 
+				</div>
+				<div class="item">
+					<img src="img/trinanoble.jpg" width="1200" height="700">
+					<div class="carousel-caption">
+						<h3>Trina</h3>
+						<p>My lovely fiancee</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/daisy.jpg" width="1200" height="700">
+					<div class="carousel-caption">
+						<h3>Daisy</h3>
+						<p>My cute dog</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/cheerio.jpg" width="1200" height="700">
+					<div class="carousel-caption">
+						<h3>Cheerio</h3>
+						<p>My cute cat</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/appa.jpg" width="1200" height="700">
+					<div class="carousel-caption">
+						<h3>Appa</h3>
+						<p>My cute cat<br>(Yes, we named him after Avatar)</p>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!--Left and right controls-->
+			
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		
+		<div id="aboutMe"class="container text-center">
+			<h3>About Me</h3>
+			<p><em>Noble Finsand</em></p>
+			<p>Currently I am attending school at SLCC to get my associates degree. From here, I am transferring down to Utah Valley University to get my bachelors in software engineering. Along with my schooling, I am doing an online program at Freecodecamp to expand my knowledge of computer programming. My goal is to get hired as a web developer/front end developer before I am graduated.</p>
+			<p>Growing up I loved creating new things with my computer. I first started out graphic designing, creating images with photoshop, and from there branched out. A little bit about my background, during highschool I took advanced HTML and CSS where we did the basics of web development. I also attended Canyons Technical center where I learned about networking, and how to build computers. Immediately I fell in love with web development and knew I wanted to do this for a career.</p>
+			<p>Outside of school, I manage a coffee shop called Beans and Brews where I have been a barista for almost 4 years. I definitely am a coffee snob, and I love to do amateur latte art. See my pictures below.</p>
+			<br>
+			<div class="row">
+				<div class="col-sm-4">
+					<img class="img-responsive img-circle coffee"src="img/latte.jpg" alt="rosetta">
+				</div>
+				<div class="col-sm-4">
+					<img class="img-responsive img-circle coffee"src="img/latte2.jpg" alt="rosetta">
+				</div>
+				<div class="col-sm-4">
+					<img class="img-responsive img-circle coffee"src="img/latte3.jpg" alt="rosetta">
+				</div>
+			</div>
+		</div>
+		
+		<!-- Project Section --> 
+		<div id="projects"class="bg-1">
+			<div class="container">
+				<h3 class="text-center">Projects</h3>
+				<p class="text-center">Below you will find a list of projects that I have completed.<br>Some of them will be from school, and the others are ones that I did on my own time.</p>
+				<div class="row text-center">
+					<div class="col-sm-3">
+						<div class="thumbnail">
+							<img src="img/project1.png">
+							<p><strong>Personal Website</strong></p>
+							<p>This was one of the first websites that I built for myself.</p>
+							<a href="http://noblefinsand.000webhostapp.com/noble-website/" target="_blank"><button class="btn">Click to View</button></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="thumbnail">
+							<img src="img/project2.png">
+							<p><strong>Pizza Parlor</strong></p>
+							<p>I created this fake pizza site for one of my projects in school.</p>
+							<a href="http://noblefinsand.000webhostapp.com/pizza-2/index.html" target="_blank"><button class="btn">Click to View</button></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="thumbnail">
+							<img src="img/project3.png">
+							<p><strong>Div Page</strong></p>
+							<p>This project I had to create a page out of div tags.</p>
+							<a href="https://noblefinsand.000webhostapp.com/little-boxes/" target="_blank"><button class="btn">Click to View</button></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="thumbnail">
+							<img src="img/project4.png">
+							<p><strong>Free Code Camp</strong></p>
+							<p>This was a quick page I built for a project at freecodecamp.</p>
+							<a href="https://codepen.io/nfinsand/full/aLxxvN/" target="_blank"><button class="btn">Click to View</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Contact -->
+		<div id="contact" class="container">
+			<h3 class="text-center">Contact Me</h3>
+			<p class="text-center">I would love to hear from you</p>
+			<div class="row test">
+				<div class="col-sm-4">
+					<p><strong>Contact Information</strong></p>
+					<p><span class="glyphicon glyphicon-map-marker"></span>Salt Lake City, UT</p>
+					<p><span class="glyphicon glyphicon-phone"></span>Phone: 385-549-6777</p>
+					<p><span class="glyphicon glyphicon-envelope"></span>Email: thefinsandman@gmail.com</p>
+				
+				</div>
+				<div class="col-sm-8">
+					<div class="row">
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+						</div>
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+						</div>
+					</div>
+					<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+					<div class="row">
+						<div class="col-md-12 form-group">
+							<button class="btn pull-right" type="submit">Send</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Footer -->
+		<footer class="text-center">
+			<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+			</a><br><br>
+			<p>Page Created By Noble Finsand</p> 
+		</footer>
+		<script>
+			$(document).ready(function(){
+			  // Initialize Tooltip
+			  $('[data-toggle="tooltip"]').tooltip(); 
+			  
+			  // Add smooth scrolling to all links in navbar + footer link
+			  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+
+				  // Prevent default anchor click behavior
+				  event.preventDefault();
+
+				  // Store hash
+				  var hash = this.hash;
+
+				  // Using jQuery's animate() method to add smooth page scroll
+				  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+				  $('html, body').animate({
+					scrollTop: $(hash).offset().top
+				  }, 900, function(){
+			   
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				  });
+				} // End if
+			  });
+			})
+		</script>
+	</body>
+</html>
